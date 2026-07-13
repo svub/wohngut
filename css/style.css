@@ -1,5 +1,6 @@
 :root {
     --highlight: #e60e15;
+    --offwhite: ;
 
     font-size: 14px;
     font-family:
@@ -24,11 +25,11 @@ h3 {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 h3 {
@@ -58,7 +59,7 @@ body {
 .container {
     width: min(92%, 900px);
     margin: 3rem auto;
-    background-color: #aaa;
+    background-color: #c8c4bf;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -76,18 +77,26 @@ header {
 
 .tagline {
     padding: .5rem;
-    font-size: 0.75rem;
+    font-size: 1.25rem;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.56);
+    background-color: rgba(250, 248, 245, 0.75);
+    background-color-
 
 }
 
 main {
-    padding: 1.5rem 2.5rem;
+    padding: 2rem 2.5rem;
+}
+
+.tag {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--highlight);
+    text-shadow: 0 0 1rem rgba(255,255,255, 0.2);
 }
 
 section {
-    margin: 1rem 0 3rem 0;
+    margin: 3rem 0;
 }
 
 .social-link img {
